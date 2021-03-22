@@ -3,7 +3,7 @@ class Node():
         self.value = value
         self.next = None
         
-class ListStack():
+class LinkStack():
     def __init__(self):
         self._top = None
     
@@ -36,7 +36,7 @@ class ListStack():
         return count            
     
 if __name__ == "__main__":
-    new_stack = ListStack()
+    new_stack = LinkStack()
     print(new_stack.is_empty())
         
     for i in range(5):
